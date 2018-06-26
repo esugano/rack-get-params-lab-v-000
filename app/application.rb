@@ -21,7 +21,7 @@ class Application
       else
         @@cart.collect {|item| resp.write "#{item}\n"}
       end
-    elsif req.path.match(/add/)
+    elsif req.path.match(/add)
 
      item_to_add = req.params["q"]
 
